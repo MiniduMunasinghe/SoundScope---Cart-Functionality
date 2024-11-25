@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+		 xmlns:xsi="http://www.w3.org/2001/xmlSchema-instance"
+		 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+		 http://xmlns.jpc.org/xml/ns/javaee/web-app_3_1.xsd"
+		 version="3.1">
+
+	<servlet>
+		<servlet-name>addCart</servlet-name>
+		<servlet-class>servlet.addCart</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>addCart</servlet-name>
+		<url-pattern>/addcrt</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>adminCart</servlet-name>
+		<servlet-class>servlet.adminCart</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>adminCart</servlet-name>
+		<url-pattern>/admincrt</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>deleteCart</servlet-name>
+		<servlet-class>servlet.deleteCart</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>deleteCart</servlet-name>
+		<url-pattern>/deletecrt</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>adminMusicTable</servlet-name>
+		<servlet-class>servlet.adminMusicTable</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>adminMusicTable</servlet-name>
+		<url-pattern>/adminmt</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>updateCart</servlet-name>
+		<servlet-class>servlet.updateCart</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>updateCart</servlet-name>
+		<url-pattern>/updatecrt</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Customer matheesha -->
+	
+	<servlet>
+        <servlet-name>addCustomer</servlet-name>
+        <servlet-class>servlet.addCustomer</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>addCustomer</servlet-name>
+        <url-pattern>/addCus</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>adminCustomer</servlet-name>
+        <servlet-class>servlet.adminCustomer</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>adminCustomer</servlet-name>
+        <url-pattern>/adminCus</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteCus</servlet-name>
+        <servlet-class>servlet.deleteCus</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>deleteCus</servlet-name>
+        <url-pattern>/delCus</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>updateCus</servlet-name>
+        <servlet-class>servlet.updateCus</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>updateCus</servlet-name>
+        <url-pattern>/upCus</url-pattern>
+    </servlet-mapping>
+	
+</web-app>
